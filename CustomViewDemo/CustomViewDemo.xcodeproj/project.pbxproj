@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41D3C8B0240001FF000C66BD /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D3C8AF240001FF000C66BD /* CustomView.xib */; };
+		41D3C8B224000241000C66BD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3C8B124000241000C66BD /* CustomView.swift */; };
 		41D47D9B23FF624800343FC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D47D9A23FF624800343FC4 /* AppDelegate.swift */; };
 		41D47D9D23FF624800343FC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D47D9C23FF624800343FC4 /* SceneDelegate.swift */; };
 		41D47D9F23FF624800343FC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D47D9E23FF624800343FC4 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41D3C8AF240001FF000C66BD /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		41D3C8B124000241000C66BD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		41D47D9723FF624800343FC4 /* CustomViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D47D9A23FF624800343FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D47D9C23FF624800343FC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41D3C8AE240001E8000C66BD /* CusttomView */ = {
+			isa = PBXGroup;
+			children = (
+				41D3C8AF240001FF000C66BD /* CustomView.xib */,
+				41D3C8B124000241000C66BD /* CustomView.swift */,
+			);
+			path = CusttomView;
+			sourceTree = "<group>";
+		};
 		41D47D8E23FF624800343FC4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		41D47D9923FF624800343FC4 /* CustomViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				41D3C8AE240001E8000C66BD /* CusttomView */,
 				41D47D9A23FF624800343FC4 /* AppDelegate.swift */,
 				41D47D9C23FF624800343FC4 /* SceneDelegate.swift */,
 				41D47D9E23FF624800343FC4 /* ViewController.swift */,
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D47DA723FF624900343FC4 /* LaunchScreen.storyboard in Resources */,
+				41D3C8B0240001FF000C66BD /* CustomView.xib in Resources */,
 				41D47DA423FF624900343FC4 /* Assets.xcassets in Resources */,
 				41D47DA223FF624800343FC4 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D47D9F23FF624800343FC4 /* ViewController.swift in Sources */,
+				41D3C8B224000241000C66BD /* CustomView.swift in Sources */,
 				41D47D9B23FF624800343FC4 /* AppDelegate.swift in Sources */,
 				41D47D9D23FF624800343FC4 /* SceneDelegate.swift in Sources */,
 			);
